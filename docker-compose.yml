@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  ubuntu:
+    image: ubuntu
+    tty: true
+    volumes:
+      - .:/var/www
